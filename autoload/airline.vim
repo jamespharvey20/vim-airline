@@ -228,6 +228,7 @@ function! airline#check_mode(winnr)
     endif
     if exists("*VMInfos") && !empty(VMInfos())
       " Vim plugin Multiple Cursors https://github.com/mg979/vim-visual-multi
+      let l:mode = ['multi']
       let l:m = 'multi'
     endif
     if index(['Rv', 'no', 'ni', 'ix', 'ic', 'multi'], l:m) == -1
