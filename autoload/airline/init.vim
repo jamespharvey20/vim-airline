@@ -40,8 +40,8 @@ function! airline#init#bootstrap()
         \ 'i'  : 'INSERT',
         \ 'ic' : 'INSERT COMPL',
         \ 'ix' : 'INSERT COMPL',
-        \ 'multi' : 'MULTI',
         \ 'n'  : 'NORMAL',
+        \ 'n_multi' : 'N-MULTI',
         \ 'ni' : '(INSERT)',
         \ 'no' : 'OP PENDING',
         \ 'R'  : 'REPLACE',
@@ -51,6 +51,7 @@ function! airline#init#bootstrap()
         \ '' : 'S-BLOCK',
         \ 't'  : 'TERMINAL',
         \ 'v'  : 'VISUAL',
+        \ 'v_multi' : 'V-MULTI',
         \ 'V'  : 'V-LINE',
         \ '' : 'V-BLOCK',
         \ }, 'keep')
